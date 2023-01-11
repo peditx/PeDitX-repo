@@ -1,0 +1,856 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/adbyby
+SourceName: adbyby
+Section: net
+SourceDateEpoch: 1646110396
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 455273
+Filename: adbyby_2.7-20200315_arm_cortex-a7_neon-vfpv4.ipk
+Size: 455662
+SHA256sum: ae7dd1f3da70543b79b0900ddd8cdde7a929401c15506e7ab67cf93c16419644
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-atinout-mod/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660737508
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3046
+Filename: atinout_0.9.1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3867
+SHA256sum: 7793ef7647edb985d0d3c738434e00030627c8d0908340d9b7a983736c134438
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: automount
+Version: 1-40
+Depends: libc, block-mount, kmod-fs-exfat, kmod-fs-ext4, kmod-fs-vfat, libblkid1, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, kmod-fs-ntfs3
+Source: /home/neo/wrt-project/custom-feeds/automount
+SourceName: automount
+Section: opt
+SourceDateEpoch: 1646110396
+Maintainer: Lean
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 719
+Filename: automount_1-40_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1524
+SHA256sum: 5de6daebd9cc864fb5e3833da6457d7f401cce41862617dbd7eec9334d19887c
+Description:  A usb autoconfig hotplug script.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/badvpn
+SourceName: badvpn
+Section: net
+SourceDateEpoch: 1668936796
+Maintainer: helmiau
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 119813
+Filename: badvpn_1.999.130-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 120588
+SHA256sum: 2a6798ac3654c171782021549adeca91dbe5c5d62fd24bd9c81b4075dc263c73
+Description:  BadVPN
+
+Package: brook
+Version: 20230101-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5357813
+Filename: brook_20230101-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5284854
+SHA256sum: 4513a023548c02987595c3f923d0ca9337c3b4480fd997f3241480918ae7e1fa
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16933
+Filename: chinadns-ng_1.0-beta.25-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17777
+SHA256sum: fb0ef3de9a26159979907cbf7485583f1cf65d640978c2f1a7e7c069e7fcc83e
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/corkscrew
+SourceName: corkscrew
+Section: net
+SourceDateEpoch: 1668936796
+Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2972
+Filename: corkscrew_2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3728
+SHA256sum: ea6b62ff71401b73751c45dcbc62beb1fd815f50c5d44dd25330fe38b60a7030
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: ghostmaker
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10681
+Filename: dns2socks_2.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11491
+SHA256sum: 975ecccaaff5642395f7bf25a6b20af403b6dfb8e6aa129374ace5f1b51fc780
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11209
+Filename: dns2tcp_1.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12060
+SHA256sum: 140e8fb3c99e3d3564b0c128296e58fef5990fc58e404ccf2a1b013bf2d713a6
+Description:  utility to convert dns query from udp to tcp
+
+Package: dnsforwarder
+Version: 6.1.15-11
+Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
+Source: /home/neo/wrt-project/custom-feeds/dnsforwarder
+SourceName: dnsforwarder
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Dennis <openwrt@tossp.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 79099
+Filename: dnsforwarder_6.1.15-11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 79939
+SHA256sum: 84d01082ff0d9cfdc8990a7dd6cb97e26a9368ed6eeee9041e7b657de595f7d1
+Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
+ over a specified protocol (UDP or TCP). non-standard ports are supported.
+
+Package: dnsproxy
+Version: 0.46.5-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/dnsproxy
+SourceName: dnsproxy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Require-User: dnsproxy=411:dnsproxy=411
+SourceDateEpoch: 1646110396
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3680611
+Filename: dnsproxy_0.46.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3676424
+SHA256sum: 1fb04b63c191277e0eae68dc491e5003d8af91d9e09adf3aaa835acdf7b4f468
+Description:  A simple DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
+ work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
+Package: ethstatus
+Version: 0.4.9-1
+Depends: libc, libncurses6
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/ethstatus
+SourceName: ethstatus
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1669880384
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7266
+Filename: ethstatus_0.4.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8201
+SHA256sum: 4a7e334be76cda4dcfc07d4e050c400ea0a7945b06998c632137108ddcc32501
+Description:  Ethstatus is a console-based monitoring utility for
+ displaying statistical data of the ethernet interface
+ on a quantity basis. It is similar to iptraf but is meant
+ to run as a permanent console task to monitor the network
+ load.
+
+Package: hysteria
+Version: 1.3.2-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6304754
+Filename: hysteria_1.3.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6296416
+SHA256sum: d8511607930db72e6628ee6855329de9c9df57193c4949cd84b45e80a88f009a
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26947
+Filename: ipt2socks_1.1.3-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27769
+SHA256sum: eb7e8683213c1ce797f78a5f2fd6dd34e14941e6f35e2501d997909f42478da6
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: /home/neo/wrt-project/custom-feeds/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1634959980
+Maintainer: fabled
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2244
+Filename: lua-maxminddb_0.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2977
+SHA256sum: 6a97102172967207295530b28200f968c1610fda493b887940282706e22500c7
+Description:  libmaxminddb bindings for lua
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: lean
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5086
+Filename: microsocks_1.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5920
+SHA256sum: 9b33f19fc3db930055a6bb690c8de0bd53581a2fefbf995fd43233eacdf8d14b
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: mrtg
+Version: 2.17.10-1
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/mrtg
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1669880384
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 544344
+Filename: mrtg_2.17.10-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 545327
+SHA256sum: 01713eacf715fbb83fcdbc11ba26f0d5fb32650b7ca336b9d5d62b9833626f18
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 108.0.5359.94-1-1
+Depends: libc, libatomic1
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2566370
+Filename: naiveproxy_108.0.5359.94-1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2559335
+SHA256sum: 1facbc169f12c4ec4e013f0a14f3428213958a4563471d91327a98060752bbf1
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/nload
+SourceName: nload
+License: LICENSE
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1669880384
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33728
+Filename: nload_0.7.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34683
+SHA256sum: aa44c70caf217ed09346de5dc2082f22ec93e4ab5dc8aafdda12cf690b112253
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 85798
+Filename: pdnsd-alt_1.2.9b-par-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 86742
+SHA256sum: af45cbf1c08f9e5e2dc66ad904b6602f7fabb1d10a2d05291ea6183e0e4843b4
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: redsocks2
+Version: 0.67-5
+Depends: libc, libevent2-7, libopenssl1.1
+Source: /home/neo/wrt-project/custom-feeds/redsocks2
+SourceName: redsocks2
+License: Apache-2.0
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 52732
+Filename: redsocks2_0.67-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 53565
+SHA256sum: c9dc87d0be2b7d786effe50789e31e3c79ca269e2c119b9c3ae6b6e3d02fc33e
+Description:  This is a modified version of original redsocks.
+ Transparent redirector of any TCP/UDP connection to proxy.
+
+Package: sagernet-core
+Version: 5.0.17-2022-07-30-26e36b1c-1
+Depends: libc, ca-bundle
+Conflicts: v2ray-core, xray-core
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/sagernet-core
+SourceName: sagernet-core
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9208069
+Filename: sagernet-core_5.0.17-2022-07-30-26e36b1c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9191559
+SHA256sum: 427be2d98703602072b8fc1b8c8d4dd3bfd3256db554e726283352a9c505f913
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This is a v2ray-core fork for SagerNet.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.15.2-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3035106
+Filename: shadowsocks-rust-sslocal_1.15.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3025353
+SHA256sum: 5f9078529703510863d0e4773f2f2de937eace35da46cd4a7bb20f1fb95b853e
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.15.2-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssmanager
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2080980
+Filename: shadowsocks-rust-ssmanager_1.15.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2074571
+SHA256sum: c6c81ed6c16970e89db6f1d0caaa2fea42736c28a4484be0fdf66f27330c3231
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.15.2-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2019535
+Filename: shadowsocks-rust-ssserver_1.15.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2012759
+SHA256sum: 7ee926653f9b7859dc3410b0f65b8213ae97bc28e3cfa935de213630bc66c22f
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.15.2-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssservice
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3271829
+Filename: shadowsocks-rust-ssservice_1.15.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3261532
+SHA256sum: 0a01f5a22510cef3e4e7db9c5ad11cec6890b67305112c1601e7820f73662e7e
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.15.2-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssurl
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 938913
+Filename: shadowsocks-rust-ssurl_1.15.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 933550
+SHA256sum: 6b9dfedf281ee3cb2af5ea2ef401a4cee30325a1c26160cc0d6a122cc0df7a60
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2232
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3044
+SHA256sum: 29cbe67950ff4e7f38058fdb44c81cb1b79458eae94d55faba8951908dd4711e
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 58652
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59540
+SHA256sum: c37d2665f58a65f817a767f7e965cd8843f16c99af8ab1427aa5e5235e8b079e
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2236
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3041
+SHA256sum: ed00394d90786b9c16fd2b80520b3233e07fe345ec718ef7454e487f1a281584
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53091
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 53887
+SHA256sum: 693d011cbc05a534e077064157af899b7833f6f88eb0db11031e23eb5ad52b86
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 62206
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 63047
+SHA256sum: 8eef9ad7c23381b024141197b25bccbbbc3537083e54e07d5e8836296b222b54
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29439
+Filename: simple-obfs-server_0.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30327
+SHA256sum: 740fdb0b5556520345cacc6fb1aca99d4485a50b405ad73e7a251a6e01f1dc88
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27102
+Filename: simple-obfs_0.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27992
+SHA256sum: 2915e0fff4816c1876d4354838494fd8f1311a490133ad7ca2ca4b7fdf13cc0d
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simpleproxy
+Version: 3.5
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/simpleproxy
+SourceName: simpleproxy
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669880384
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10308
+Filename: simpleproxy_3.5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11166
+SHA256sum: cccb88e7b78211336f19db9acd05739d827609729b709d0671dbcde54dcb9b4e
+Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
+ TCP port and forward them to anoter port on a remote host via TCP.
+
+Package: sing-box
+Version: 1.1.2-1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/sing-box
+SourceName: sing-box
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9302872
+Filename: sing-box_1.1.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9288818
+SHA256sum: cf3d29824efecf5fe24a6f7db09c3c09dc4e97070ad8474808bc4587ad24ee04
+Description:  The universal proxy platform.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-sms-tool/sms-tool
+SourceName: sms-tool
+Section: utils
+SourceDateEpoch: 1673034027
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7987
+Filename: sms-tool_2022-03-21-f07699ab-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8788
+SHA256sum: b22bcb18fa7903c32ce1b5a4403840b097ac78897a88831046427eeeee2a411b
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtest-web
+Version: 1.1.5
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/speedtest-web
+SourceName: speedtest-web
+License: LGPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1638428377
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3147294
+Filename: speedtest-web_1.1.5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3148628
+SHA256sum: fef7c7affad486c5a177d7794737a8a5e083cbc83a3c27a25fae59240c717965
+Description:  speedtest-web is a Openwrt package for speedtest-go, a Go backend for LibreSpeed
+
+Package: speedtestpp
+Version: 1.14-220216.73750
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
+Conflicts: python3-speedtest-cli
+Source: /home/neo/wrt-project/custom-feeds/speedtestpp
+SourceName: speedtestpp
+License: MIT
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Oskari Rauta <oskari.rauta@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24497
+Filename: speedtestpp_1.14-220216.73750_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25232
+SHA256sum: a27546d0b419a0f3ab09abde458cb734a466f988b821e2016386cfa971a80b18
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/ssocks
+SourceName: ssocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13128
+Filename: ssocks_0.0.14-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13994
+SHA256sum: e4c36cefb6f1a832bf5d1cd3ee6d6060119c7191bb93b832151a868395bcdb64
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/ssocks
+SourceName: ssocksd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13328
+Filename: ssocksd_0.0.14-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14197
+SHA256sum: 62c8d9e0edc410e32f45ebcd777369e16dc13ecfedf7f2628102b48c23b18214
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1673179285
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3268
+Filename: tcping_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4014
+SHA256sum: f385530bebe61555dd724f8b528df0a4cdd7f953524b417cc0c0224bf8954b09
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4899504
+Filename: trojan-go_0.10.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4893597
+SHA256sum: 5cb945cc42013933024e994c715b5dee97462dae78f0aa86c4017eb786bdf40d
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Trojan-Plus-Group
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 355783
+Filename: trojan-plus_10.0.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 356318
+SHA256sum: 7806575c3c71716d68e0001c1073b1808dde19816a201e610a3977614758a237
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: GreaterFire
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 258206
+Filename: trojan_1.16.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 258473
+SHA256sum: 1a224fd2e2dde2b630a94a2227879b4fc1ed75f39f1730c3f9a92a7aa7b6af74
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: v2ray-core
+Version: 5.2.0-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8444482
+Filename: v2ray-core_5.2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8430812
+SHA256sum: a1f762b34564e695300e461de1175f87bd3fbadb5ad5a52b3b33ce906ae1f4af
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.2.0-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4769865
+Filename: v2ray-plugin_5.2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4764538
+SHA256sum: 465738cdbc0953c5f5d40c9b16d0240f503bcc19d5766d8cc5240b9d8049e9a6
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2raya
+Version: 1.5.9.1698.1-1
+Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+Source: /home/neo/wrt-project/custom-feeds/v2raya
+SourceName: v2raya
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9206645
+Filename: v2raya_1.5.9.1698.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9181621
+SHA256sum: 5f0bc00f7557d61deb3a1c5e78a264b9417df182d88b06a4e52b9e460cde8c71
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24119
+Filename: vlmcsd_svn1113-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24890
+SHA256sum: 82b2233cbf372bd7f8b6950a8262af5ea6d7f329ce737e10bbce91c9077ad847
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.7.2-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1673179285
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5750209
+Filename: xray-plugin_1.7.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5741072
+SHA256sum: 9ee515d6ce558944a7098d53e6b6ffcd471238c488b0c3e379b6b10bb3f5c9d8
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

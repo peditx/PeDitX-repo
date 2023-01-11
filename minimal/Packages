@@ -1,0 +1,55 @@
+Package: luci-app-bypass
+Version: 221224.44346
+Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb
+Section: luci
+Architecture: all
+Installed-Size: 2647056
+Filename: luci-app-bypass_221224.44346_all.ipk
+Size: 2465238
+SHA256sum: 2a11b724ccf822b1204bfc9ef09f3f4405fd105083154414c2ae7d20dbb7c536
+Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-passwall2
+Version: 1.4
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip
+Section: luci
+Architecture: all
+Installed-Size: 184254
+Filename: luci-app-passwall2_1.4_all.ipk
+Size: 185383
+SHA256sum: 7cd6e69deb0517ea6dcf0429ddc5442fa564ac82555072e96b097a9fa641db09
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 4.56
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip
+Section: luci
+Architecture: all
+Installed-Size: 933301
+Filename: luci-app-passwall_4.56_all.ipk
+Size: 933677
+SHA256sum: b6cd330a6e908811b9a961611e87b5dd9c1d0db737544d7452fdf4632ddacfe6
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 186
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch
+Section: luci
+Architecture: all
+Installed-Size: 198172
+Filename: luci-app-ssr-plus_186_all.ipk
+Size: 198371
+SHA256sum: 8a25cfa80ad6eb160ce80c1e2c0df5eadbd4bb060b72c45c76a8187cd3b6d5f3
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-vssr
+Version: 1.25
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs
+Section: luci
+Architecture: all
+Installed-Size: 5568669
+Filename: luci-app-vssr_1.25_all.ipk
+Size: 5293308
+SHA256sum: d7c054fb57db768c446f8ad10983cf08482246ab70c3cd7dce646ac13ba0e529
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+
