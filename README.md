@@ -35,7 +35,7 @@ x86_64
 
 ### با استفاده از LuCI
 
-  1. IP LuCI را وارد کنید (مثال: 192.168.1.1)، وارد شوید، به **System -> Software -> Configuration** بروید.
+  1. آدرس روتر را وارد کنید (مثال: 192.168.10.1)، وارد شوید، به مسیر **System -> Software -> Configuration** بروید.
   
   2. یک علامت # (حصار) در جلوی خط «گزینه چک_امضا»، به عنوان مثال زیر اضافه کنید
   
@@ -58,7 +58,7 @@ x86_64
       src/gz custom_arch https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/arm_cortex-a7_neon-vfpv4
       ```
 
-      ubah **arm_cortex-a7_neon-vfpv4** dan sesuaikan arsitektur CPU router OpenWrt kalian
+**arm_cortex-a7_neon-vfpv4** را تغییر دهید و معماری CPU روتر OpenWrt خود را تنظیم کنید
 
       ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview1.gif)
  
@@ -80,35 +80,36 @@ x86_64
       echo "src/gz custom_arch https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/$(grep "OPENWRT_ARCH" /etc/os-release | awk -F '"' '{print $2}')" >> /etc/opkg/customfeeds.conf
       ```
 
-      > Catatan: untuk firmware OpenWrt 19.07 masih ada yg harus install manual seperti `kcptun-client`, `xray-core` dan `libcap-bin`.
+> توجه: برای سیستم عامل OpenWrt 19.07 هنوز چیزهایی وجود دارد که باید به صورت دستی نصب شوند، مانند «kcptun-client»، «xray-core» و «libcap-bin».
     
       ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview2.gif)
     
 
-## Cara Install dan Update Paket
-Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
-- [Menggunakan LuCI](#install-dan-update-paket-menggunakan-luci)
-- [Menggunakan Terminal](#install-dan-update-paket-menggunakan-terminal) seperti JuiceSSH/Termius/Termux
+## نحوه نصب و به روز رسانی بسته ها
+برای نصب این مخزن، می توانید از 2 روش استفاده کنید
+- [LuCI](#install-dan-update-paket-menggunakan-luci)
+- [Terminal](#install-dan-update-paket-menggunakan-terminal)  JuiceSSH/Termius/Termux
 
-### Install dan Update Paket Menggunakan LuCI
-  1. Masuk IP LuCI (contoh: 192.168.1.1), Login, Buka **System -> Software -> Configuration**
-  2. Tekan tombol **Update Lists**.
-  3. Cari nama paket (seperti: `luci-app-passwall`) pada kolom **Filter**.
-  4. Tekan tombol **Find Package**.
-  5. Scroll sedikit, lihat dibawah ada tab **Installed packages** dan **Available packages** :
-      - Installed packages : paket pada daftar tersebut sudah terpasang.
-      - Available packages : paket pada dafter tersebut belum terpasang.
-  6. Klik **Available packages**, lalu cari nama paket yang di tulis di filter tadi.
-  7. Klik tulisan **Install** pada baris yang terdapat pada nama paket tersebut, lalu tunggu hingga instalasi paket selesai.
+### نصب و به روز رسانی بسته ها با استفاده از LuCI
+
+  1. آدرس روتر را وارد کنید (مثال: 192.168.10.1)، وارد شوید، به مسیر **System -> Software -> Configuration** بروید
+  2. دکمه **Update Lists** بزنید.
+  3. نام بسته مورد نظر خود را در فیلد **Filter** وارد نمایید.
+  4. دکمه**Find Package** رابزنید.
+  5. در زیر این دو نام را خواهید دید **Installed packages** و **Available packages** :
+      - Installed packages : بسته های نصب شده
+      - Available packages : بسته های موجود
+  6. بر روی **Available packages** کلیک نمایید .
+  7. وبعد در کنار بسه مورد نظر گزینه **Install** را کلیک کنید.
  
-### Install dan Update Paket Menggunakan Terminal
-  1. Buka aplikasi terminal yang disuka
-  2. Jalankan perintah dibawah ini untuk memperbarui daftar paket yang tersedia di server
+### نصب و آپدیت از طریق خط فرمان
+  1. با نرم افزار مورد نظر خودتون وارد ترمینال روتر شوید
+  2. برای بروز رسانی لیست نرم افزار ها دستور زیر را وارد نمایید
       ```
       opkg update
       ```
   
-  3. Jalankan perintah `opkg install nama-paket`, ganti `nama-paket` menjadi nama paket yang ada (contoh kali ini akan menggunakan paket `luci-app-passwall`).
+  3. برای نصب برنامه به این شکل عمل کنید `opkg install nama-paket`, passwall`).
       
       ```
       opkg install luci-app-passwall
