@@ -1,20 +1,20 @@
-# Personal OpenWrt OPKG Server
-Install dan upgrade paket aplikasi komunitas modifikasi OpenWrt (seperti: OpenClash, Passwall, ShadowSocksR+ Plus, Wegare STL, Tiny File Manager, Xderm Mini, v2rayA, Modeminfo, dll) dengan mudah.
+# PeDitX repo
+بسته های برنامه های کاربردی جامعه اصلاح OpenWrt را به راحتی نصب و ارتقا دهید (مانند: OpenClash، Passwall، ShadowSocksR+ Plus، Wegare STL، Tiny File Manager، Xderm Mini، v2rayA، Modeminfo و غیره).
 
-Kelebihan instalasi dan update menggunakan server kustom seperti ini adalah:
-1. Tidak perlu repot menggunakan wget dan curl yang sangat panjang dan rumit.
-2. Instalasi paket ipk bisa menggunakan `opkg install nama-paket`.
-3. Instalasi paket ipk juga bisa menggunakan fitur **System - Software** pada LuCI OpenWrt.
+مزایای نصب و به روز رسانی با استفاده از سرور سفارشی مانند این عبارتند از:
+1. بدون نیاز به زحمت استفاده از wget و curl که بسیار طولانی و پیچیده هستند.
+2. برای نصب بسته ipk می توان از «opkg install package-name» استفاده کرد.
+3. با نصب بسته IPK می توان از ویژگی **System - software** در LuCI OpenWrt نیز استفاده کرد.
 
-Daftar Isi:
-- [Daftar Arsitektur](#daftar-arsitektur)
-- [Cara Menambah Repository ke Software Update OpenWrt](#cara-menambah-repository-ke-software-update-openwrt)
-- [Cara Install dan Update Paket](#cara-install-dan-update-paket)
-- [Cara Memeriksa Paket Sudah Terinstal Atau Belum](#cara-memeriksa-paket-sudah-terinstal-atau-belum)
-- [Kredit](#kredit)
+## فهرست مطالب
+- [Architecture-list](#architecture-list)
+- [نحوه افزودن مخزن به نرم افزار به روز رسانی OpenWrt] (#how-to-add-repository-to-software-update-openwrt)
+- [نحوه نصب و به‌روزرسانی بسته‌ها] (#how-to-install-and-update-packages)
+- [نحوه بررسی نصب یا عدم نصب بسته] (#how-to-check-package-installed-or-no)
+- [اعتبار] (#اعتبار)
 
-## Daftar Arsitektur
-Repository ini mendukung arsitektur dibawah ini:
+## فهرست معماری
+این مخزن از معماری های زیر پشتیبانی می کند:
 
 ```
 aarch64_cortex-a53
@@ -28,31 +28,30 @@ mipsel_24kc
 x86_64
 ```
 
-## Cara Menambah Repository ke Software Update OpenWrt
-Cara menambahkan repository ini ke firmware, dapat menggunakan 2 cara yaitu:
-- [Menggunakan LuCI](#menggunakan-luci)
-- [Menggunakan Terminal](#menggunakan-terminal) seperti JuiceSSH/Termius/Termux
+## نحوه افزودن مخزن به آپدیت نرم افزار OpenWrt
+نحوه اضافه کردن این مخزن به سیستم عامل، می توانید از 2 روش استفاده کنید، یعنی:
+- [استفاده از LuCI] (#using-luci)
+- [استفاده از ترمینال] (#using-terminal) مانند JuiceSSH/Termius/Termux
 
+### با استفاده از LuCI
 
-### Menggunakan LuCI
-
-  1. Masuk IP LuCI (contoh: 192.168.1.1), Login, Buka **System -> Software -> Configuration**
+  1. IP LuCI را وارد کنید (مثال: 192.168.1.1)، وارد شوید، به **System -> Software -> Configuration** بروید.
   
-  2. Tambahkan tanda # (pagar) di depan baris ```option check_signature```, contoh dibawah ini
+  2. یک علامت # (حصار) در جلوی خط «گزینه چک_امضا»، به عنوان مثال زیر اضافه کنید
   
-      ubah tulisan dibawah ini
+      متن زیر را تغییر دهید
       
       ```
       option check_signature
       ```
       
-      menjadi seperti ini
+     به این شکل تغییر کند
       
       ```
       # option check_signature
       ```
 
-  3. Pada bagian custom feeds tambahkan list dibawah ini
+  3. در قسمت فیدهای سفارشی (custom feeds )، لیست زیر را اضافه کنید
 
       ```
       src/gz custom_generic https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/generic
@@ -63,16 +62,17 @@ Cara menambahkan repository ini ke firmware, dapat menggunakan 2 cara yaitu:
 
       ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview1.gif)
  
-### Menggunakan Terminal
-  1. Gunakan salah satu rekomendasi aplikasi Terminal dibawah ini
+### استفاده از خط فرمان
+
+  1. از یکی از برنامه ترمینال که در زیر آمده استفاده کنید
       - Terminal TTYD (Paket OpenWrt)
       - JuiceSSH
       - Termius
       - Termux
-      
-      > Catatan: Pengguna dapat menggunakan aplikasi terminal selain yang disebutkan diatas
+
+ > توجه: کاربران می توانند از برنامه های ترمینال غیر از موارد ذکر شده در بالا استفاده کنند
   
-  2. Copy paste dibawah di terminal, otomatis akan menyesuaikan tipe arsitektur cpu router
+  2. با کپی پیست دستور زیر در ترمینال یه صورت خودکار معماری سی پی یو ی شما شناساسیی و جایگزین می شود
       
       ```
       sed -i 's/option check_signature/# option check_signature/g' /etc/opkg.conf
