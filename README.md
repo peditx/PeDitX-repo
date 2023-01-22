@@ -55,8 +55,8 @@ Cara menambahkan repository ini ke firmware, dapat menggunakan 2 cara yaitu:
   3. Pada bagian custom feeds tambahkan list dibawah ini
 
       ```
-      src/gz custom_generic https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/generic
-      src/gz custom_arch https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/arm_cortex-a7_neon-vfpv4
+      src/gz custom_generic https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/generic
+      src/gz custom_arch https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/arm_cortex-a7_neon-vfpv4
       ```
 
       ubah **arm_cortex-a7_neon-vfpv4** dan sesuaikan arsitektur CPU router OpenWrt kalian
@@ -76,8 +76,8 @@ Cara menambahkan repository ini ke firmware, dapat menggunakan 2 cara yaitu:
       
       ```
       sed -i 's/option check_signature/# option check_signature/g' /etc/opkg.conf
-      echo "src/gz custom_generic https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/generic" >> /etc/opkg/customfeeds.conf
-      echo "src/gz custom_arch https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/$(grep "OPENWRT_ARCH" /etc/os-release | awk -F '"' '{print $2}')" >> /etc/opkg/customfeeds.conf
+      echo "src/gz custom_generic https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/generic" >> /etc/opkg/customfeeds.conf
+      echo "src/gz custom_arch https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/$(grep "OPENWRT_ARCH" /etc/os-release | awk -F '"' '{print $2}')" >> /etc/opkg/customfeeds.conf
       ```
 
       > Catatan: untuk firmware OpenWrt 19.07 masih ada yg harus install manual seperti `kcptun-client`, `xray-core` dan `libcap-bin`.
@@ -137,6 +137,6 @@ Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
       Jika di terminal muncul `luci-app-passwall - 4.43-2` maka paket aplikasi sudah terpasang, jika tidak ada maka paket belum terpasang. Angka `4.43-2` pada terminal tadi adalan versi paket aplikasi yang terinstal.
       
       
-### Kredit
+### Special Thanks
 - [Nugroho](https://radenku.com) sebagai pemilik repo, builder dan yang buat video contoh.
 - [Helmi Amirudin](https://helmiau.com/about) sebagai tukang dokumentasi.
