@@ -137,3 +137,6 @@ x86_64
 ### تشکر ویژه
 - [Nugroho](https://radenku.com) sebagai pemilik repo, builder dan yang buat video contoh.
 - [Helmi Amirudin](https://helmiau.com/about) sebagai tukang dokumentasi.
+
+### لایسنس ها
+[**PeDitX**](https://peditx.ir) © 2023
