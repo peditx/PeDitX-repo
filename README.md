@@ -62,7 +62,7 @@ x86_64
 **arm_cortex-a7_neon-vfpv4**
 را به معماری سی پی یوی روتر خودتان تغییر دهید
 
-      ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview1.gif)
+      ![](https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/preview/preview1.gif)
  
 ### استفاده از خط فرمان
 
@@ -84,7 +84,7 @@ x86_64
 
 > توجه: برای سیستم عامل OpenWrt 19.07 هنوز چیزهایی وجود دارد که باید به صورت دستی نصب شوند، مانند «kcptun-client»، «xray-core» و «libcap-bin».
     
-      ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview2.gif)
+      ![](https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/preview/preview2.gif)
     
 
 ## نحوه نصب و به روز رسانی بسته ها
