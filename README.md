@@ -37,7 +37,7 @@ x86_64
   **System -> Software -> Configuration**
   بروید.
   
-  2. یک علامت # (هشتگ) در جلوی خط «option check_signature»، به عنوان مثال زیر اضافه کنید
+  2. یک علامت # (هشتگ) در جلوی خط «option check_signature»، مانند مثال زیر اضافه کنید
   
       متن زیر را تغییر دهید
       
