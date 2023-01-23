@@ -1,4 +1,5 @@
-# PeDitX repo
+# ***PeDitX repo***
+
 بسته های برنامه های کاربردی و جامعه OpenWrt را به راحتی نصب و بروزرسانی کنید (مانند: OpenClash، Passwall، ShadowSocksR+ Plus، Wegare STL، Tiny File Manager، Xderm Mini، v2rayA، Modeminfo و غیره).
 
 مزایای نصب و به روز رسانی با استفاده از سرور سفارشی PeDitX عبارتند از:
@@ -30,9 +31,13 @@ x86_64
 
 ### با استفاده از LuCI
 
-  1. آدرس روتر را وارد کنید (مثال: 192.168.10.1)، وارد شوید، به مسیر **System -> Software -> Configuration** بروید.
+  1. آدرس روتر را وارد کنید (مثال: 192.168.10.1)،
+  وارد شوید،
+  به مسیر
+  **System -> Software -> Configuration**
+  بروید.
   
-  2. یک علامت # (حصار) در جلوی خط «گزینه چک_امضا»، به عنوان مثال زیر اضافه کنید
+  2. یک علامت # (هشتگ) در جلوی خط «option check_signature»، به عنوان مثال زیر اضافه کنید
   
       متن زیر را تغییر دهید
       
@@ -53,7 +58,9 @@ x86_64
       src/gz custom_arch https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/arm_cortex-a7_neon-vfpv4
       ```
 
-**arm_cortex-a7_neon-vfpv4** را تغییر دهید و معماری CPU روتر OpenWrt خود را تنظیم کنید
+نوشته 
+**arm_cortex-a7_neon-vfpv4**
+را تغییر به معماری سی پی یوی روتر خودتان تغییر دهیسد
 
       ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview1.gif)
  
