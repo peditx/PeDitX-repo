@@ -62,7 +62,7 @@ x86_64
 **arm_cortex-a7_neon-vfpv4**
 را به معماری سی پی یوی روتر خودتان تغییر دهید
 
-      ![](https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/preview/preview1.gif)
+![](https://raw.githubusercontent.com/PeDitX/PeDitX-repo/main/preview/preview1.gif)
  
 ### استفاده از خط فرمان
 
