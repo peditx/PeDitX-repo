@@ -1,20 +1,15 @@
 # PeDitX repo
-بسته های برنامه های کاربردی جامعه اصلاح OpenWrt را به راحتی نصب و ارتقا دهید (مانند: OpenClash، Passwall، ShadowSocksR+ Plus، Wegare STL، Tiny File Manager، Xderm Mini، v2rayA، Modeminfo و غیره).
+بسته های برنامه های کاربردی و جامعه OpenWrt را به راحتی نصب و بروزرسانی کنید (مانند: OpenClash، Passwall، ShadowSocksR+ Plus، Wegare STL، Tiny File Manager، Xderm Mini، v2rayA، Modeminfo و غیره).
 
-مزایای نصب و به روز رسانی با استفاده از سرور سفارشی مانند این عبارتند از:
-1. بدون نیاز به زحمت استفاده از wget و curl که بسیار طولانی و پیچیده هستند.
+مزایای نصب و به روز رسانی با استفاده از سرور سفارشی PeDitX عبارتند از:
+1. بدون نیاز به دردسر های استفاده از wget و curl که بسیار طولانی و پیچیده هستند.
 2. برای نصب بسته ipk می توان از «opkg install package-name» استفاده کرد.
 3. با نصب بسته IPK می توان از ویژگی **System - software** در LuCI OpenWrt نیز استفاده کرد.
+4. نیازی به کامپایل و ساخت مجدد برنامه نیست.
 
-## فهرست مطالب
-- [Architecture-list](#architecture-list)
-- [نحوه افزودن مخزن به نرم افزار به روز رسانی OpenWrt] (#how-to-add-repository-to-software-update-openwrt)
-- [نحوه نصب و به‌روزرسانی بسته‌ها] (#how-to-install-and-update-packages)
-- [نحوه بررسی نصب یا عدم نصب بسته] (#how-to-check-package-installed-or-no)
-- [اعتبار] (#اعتبار)
+## فهرست معماری موجود در این منبع 
 
-## فهرست معماری
-این مخزن از معماری های زیر پشتیبانی می کند:
+این منبع از معماری cpu های زیر پشتیبانی می کند:
 
 ```
 aarch64_cortex-a53
@@ -28,7 +23,7 @@ mipsel_24kc
 x86_64
 ```
 
-## نحوه افزودن مخزن به آپدیت نرم افزار OpenWrt
+## نحوه افزودن مبع به آپدیت نرم افزار OpenWrt
 نحوه اضافه کردن این مخزن به سیستم عامل، می توانید از 2 روش استفاده کنید، یعنی:
 - [استفاده از LuCI] (#using-luci)
 - [استفاده از ترمینال] (#using-terminal) مانند JuiceSSH/Termius/Termux
