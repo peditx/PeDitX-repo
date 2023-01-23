@@ -122,12 +122,12 @@ x86_64
 ## نحوه بررسی نصب یا عدم نصب بسته
 این مورد از دوبخش امکانپدیر است:
 - [LuCI](#نحوه_بررسی_وضعیت_بسته_با_LuCI)
-- [Terminal](#نحوه_بررسی-وضعیت-بسته-با-ترمینال) seperti JuiceSSH/Termius/Termux
+- [Terminal](#نحوه_بررسی-وضعیت-بسته-با-ترمینال) مانند JuiceSSH/Termius/Termux
 
 ### نحوه بررسی وضعیت بسته با LuCI
-1. آدرس روتر را وارد کنید (به عنوان مثال: 192.168.1.1)، سپس Login.
+1. آدرس روتر را وارد کنید (به عنوان مثال: 192.168.10.1)، سپس Login.
       - اگر بسته‌ای را نصب کنید که حاوی کلمه «luci-app» باشد، معمولاً در **System/Services/NAS/VPN/Modem/Network** , موارد دیگر ظاهر می‌شود.
-      - اگر بسته ای را نصب کنید که حاوی کلمه «luci-proto» باشد، معمولاً در مسیر **Network -> Pilih salah satu interface -> General Setup -> Protocol** ظاهر می شود.
+      - اگر بسته ای را نصب کنید که حاوی کلمه «luci-proto» باشد، معمولاً در مسیر **Network -> interfaces -> General Setup -> Protocol** ظاهر می شود.
       - اگر بسته ای را نصب کنید که حاوی کلمه «luci-theme» باشد، معمولاً در مسیر **System -> System Properties -> Language and Style -> Design** ظاهر می شود.
       - اگر بسته نصب شده حاوی کلمه luci نباشد، چیزی در LuCI نمایش نمی دهد.
 
@@ -142,8 +142,7 @@ x86_64
       
       
 ### تشکر ویژه
-- [Nugroho](https://radenku.com) sebagai pemilik repo, builder dan yang buat video contoh.
-- [Helmi Amirudin](https://helmiau.com/about) sebagai tukang dokumentasi.
+- [lrdrdn](https://github.com/lrdrdn)
 
 ### لایسنس ها
-[**PeDitX**](https://peditx.ir) © 2023
+[***PeDitX***](https://peditx.ir) © 2023
