@@ -109,35 +109,36 @@ x86_64
       opkg update
       ```
   
-  3. برای نصب برنامه به این شکل عمل کنید `opkg install nama-paket`, passwall`).
+  3. برای نصب برنامه به این شکل عمل کنید `opkg install nama-paket`.
+  
+  > مثال: در دستور زیر نرم افزار پسوال نصب می شود
       
       ```
       opkg install luci-app-passwall
       ```
 
-## Cara Memeriksa Paket Sudah Terinstal Atau Belum
-Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
-- [Menggunakan LuCI](#cara-memeriksa-status-paket-dengan-luci)
-- [Menggunakan Terminal](#cara-memeriksa-status-paket-dengan-terminal) seperti JuiceSSH/Termius/Termux
+## نحوه بررسی نصب یا عدم نصب بسته
+این مورد از دوبخش امکانپدیر است:
+- [LuCI](#نحوه_بررسی_وضعیت_بسته_با_LuCI)
+- [Terminal](#نحوه_بررسی-وضعیت-بسته-با-ترمینال) seperti JuiceSSH/Termius/Termux
 
-### Cara Memeriksa Status Paket dengan LuCI
-  1. Masuk IP LuCI (contoh: 192.168.1.1), lalu Login.
-      - Jika memasang paket yang terdapat kata `luci-app`, biasanya akan muncul di LuCI System/Services/NAS/VPN/Modem/Network dan lain lain.
-      - Jika memasang paket yang terdapat kata `luci-proto`, biasanya akan muncul di **Network -> Pilih salah satu interface -> General Setup -> Protocol**.
-      - Jika memasang paket yang terdapat kata `luci-theme`, biasanya akan muncul di **System -> System Properties -> Language and Style -> Design**.
-      - Jika memasang paket yang di install tidak terdapat kata luci, maka paket tersebut tidak akan menampilkan apapun di LuCI.
+### نحوه بررسی وضعیت بسته با LuCI
+1. آدرس روتر را وارد کنید (به عنوان مثال: 192.168.1.1)، سپس Login.
+      - اگر بسته‌ای را نصب کنید که حاوی کلمه «luci-app» باشد، معمولاً در **System/Services/NAS/VPN/Modem/Network** , موارد دیگر ظاهر می‌شود.
+      - اگر بسته ای را نصب کنید که حاوی کلمه «luci-proto» باشد، معمولاً در مسیر **Network -> Pilih salah satu interface -> General Setup -> Protocol** ظاهر می شود.
+      - اگر بسته ای را نصب کنید که حاوی کلمه «luci-theme» باشد، معمولاً در مسیر **System -> System Properties -> Language and Style -> Design** ظاهر می شود.
+      - اگر بسته نصب شده حاوی کلمه luci نباشد، چیزی در LuCI نمایش نمی دهد.
 
-### Cara Memeriksa Status Paket dengan Terminal
-  1. Buka terminal
-  2. Jalankan perintah `opkg list-installed nama-paket`, ganti `nama-paket` menjadi nama paket yang ada (contoh kali ini akan menggunakan paket `luci-app-passwall`).
-      
+### نحوه بررسی وضعیت بسته با ترمینال
+  1. نرم افزار ترمینال خودرا باز کنید و به روتر متصل شوید
+2. دستور «opkg list-installed package-name» را اجرا کنید، «package-name» را به نام بسته موجود تغییر دهید (در این مثال از بسته «luci-app-passwall» استفاده خواهیم کرد).
       ```
       opkg list-installed luci-app-passwall
       ```
       
-      Jika di terminal muncul `luci-app-passwall - 4.43-2` maka paket aplikasi sudah terpasang, jika tidak ada maka paket belum terpasang. Angka `4.43-2` pada terminal tadi adalan versi paket aplikasi yang terinstal.
+اگر در ترمینال "luci-app-passwall - 4.43-2" ظاهر شود، بسته برنامه قبلاً نصب شده است، اگر در آنجا نباشد، بسته نصب نشده است. شماره «4.43-2» در ترمینال نسخه بسته برنامه نصب شده است.
       
       
-### Special Thanks
+### تشکر ویژه
 - [Nugroho](https://radenku.com) sebagai pemilik repo, builder dan yang buat video contoh.
 - [Helmi Amirudin](https://helmiau.com/about) sebagai tukang dokumentasi.
