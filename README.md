@@ -60,7 +60,7 @@ x86_64
 
 نوشته 
 **arm_cortex-a7_neon-vfpv4**
-را تغییر به معماری سی پی یوی روتر خودتان تغییر دهیسد
+را به معماری سی پی یوی روتر خودتان تغییر دهید
 
       ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview1.gif)
  
